@@ -6,6 +6,10 @@
   "repository": "https://github.com/prajwalkulkarni/root-config",
   "author": "Prajwal Kulkarni",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --port 9000 --env isLocal",
+    "build": "webpack --mode production"
+  },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-loader": "^9.1.3",
